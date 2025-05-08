@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 
-const InputNombre = ()=>{
+const InputNombre = ({agregar})=>{
 
     const[tarea, setTarea] = useState("");
 
