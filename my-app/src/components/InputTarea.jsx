@@ -13,8 +13,10 @@ const InputNombre = ({agregar})=>{
         <div>
             <input type="text" placeholder=" Nueva Tarea..."value={tarea} onChange={(e)=>setTarea(e.target.value)}/>
             <button onClick={manejarTarea}>Agregar</button>
-        </div>
+
+       </div>
     )
 }
+
 
 export default InputNombre
